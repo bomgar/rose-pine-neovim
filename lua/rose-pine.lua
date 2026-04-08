@@ -223,6 +223,9 @@ local function set_highlights()
 		Type = { fg = palette.foam },
 		TypeDef = { link = "Type" },
 		Underlined = { fg = palette.iris, underline = true },
+		Added = { fg = groups.git_add },
+		Changed = { fg = groups.git_change },
+		Removed = { fg = groups.git_delete },
 
 		healthError = { fg = groups.error },
 		healthSuccess = { fg = groups.info },
